@@ -13,7 +13,7 @@ object Homework {
         if(n == 0 || n == 1) {
             return n.toLong()
         }
-        var a = 0L
+        var a = 1L
         var b = 1L
         var c = 1L
         (1..n-2).forEach { i ->
